@@ -1,0 +1,13 @@
+<?php if (is_array($this->feeds) && count($this->feeds) > 0) : ?>
+    <?php foreach($this->feeds as $feed) : ?>
+        <?php if ($feed['img'] != '') : ?>
+            <img src="<?= $feed['img'] ?>">
+        <?php endif; ?>
+        <h3><?= $feed['title'] ?></h3>
+        <?= $feed['desc']; ?>
+    <?php endforeach; ?>
+<?php else: ?>
+    <p>Es wurden keine aktuellen Nachrichten gefunden.</p>
+<?php endif; ?>
+
+
