@@ -25,6 +25,6 @@ $tl_content
         ),
     ))
     ->copyPalette('default', 'RssViewer')
-    ->addPaletteGroup('fedee', array('hm_fed_url','hm_fed_fields', 'hm_fed_allowed_tags'), 'RssViewer')
+    ->addPaletteGroup('feedee', array('hm_fed_url','hm_fed_fields', 'hm_fed_allowed_tags'), 'RssViewer')
     ->addPaletteGroup('template', array('customTpl'), 'RssViewer')
 ;

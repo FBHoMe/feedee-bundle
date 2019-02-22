@@ -6,4 +6,4 @@
  * Time: 14:50
  */
 
-$GLOBALS['TL_CTE']['hm_feedee']['RssViewer'] = 'Home\CustomizeeBundle\Resources\contao\elements\RssViewer';
+$GLOBALS['TL_CTE']['hm_feedee']['RssViewer'] = 'Home\FedeeBundle\Resources\contao\elements\RssViewer';
